@@ -40,10 +40,13 @@ height: 40rem;
   height: 30rem;
   border-bottom: 20px black solid;
 }
+.scrolls{
+  overflow-x: scroll;
+}
 .imageDIV {
   display: flex;
   flex-wrap: no-wrap;
-  overflow-x: auto;
+  overflow-x: scroll;
   scrollbar-width: none;
   padding-top: 2rem
 
