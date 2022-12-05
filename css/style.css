@@ -6,6 +6,7 @@ body{
   position: relative;
   background-image: url("img/background.JPEG");
 
+
 }
 .govno{
   text-align: center;
@@ -40,30 +41,19 @@ height: 40rem;
   height: 30rem;
   border-bottom: 20px black solid;
 }
-.wrapper { 
-        background:#EFEFEF; 
-        box-shadow: 1px 1px 10px #999; 
-        margin: auto; 
-        text-align: center; 
-        position: relative;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-        margin-bottom: 20px !important;
-        width: 800px;
-        padding-top: 5px;
-    }
-    .scrolls { 
-        overflow-x: scroll;
-        overflow-y: hidden;
-    white-space:nowrap
-    } 
-    .imageDiv img { 
-        box-shadow: 1px 1px 10px #999; 
-        margin: 2px;
-        cursor: pointer;
-    display:inline-block;
-    *display:inline;
-    *zoom:1;
-    vertical-align:top;
-    }
+.imageDIV {
+  display: flex;
+  flex-wrap: no-wrap;
+  overflow-x: scroll;
+  padding-top: 2rem;
+  width: 100%;
+  overscroll-behavior-inline: contain;
+
+}
+.imageDIV img{
+    border-radius: 1rem;
+    margin-left: 2rem;
+    border: 2px solid #fff;
+    box-shadow: inset 1rem 1rem 1rem;
+
+}
