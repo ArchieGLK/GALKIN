@@ -36,6 +36,8 @@ margin: auto;
 .title img{
   margin: auto;
   display: block;
+  width: 80vw;
+  max-width: 500px;
 
 }
 .blackbackground{
@@ -51,7 +53,7 @@ margin: auto;
   border-top: 2em solid #111;
 }
 .greetings{
-  width: 23rem;;
+  width: 17rem;;
   max-width: 500px;
   display: block;
   margin: auto;
@@ -59,16 +61,16 @@ margin: auto;
   height: 10rem;
   border-radius: 1rem;
   display: block;
+  box-shadow: inset 0.5rem 0.5rem 50px 1rem #111;
 }
 .greetingsinner{
   display: flex;
-         width: 50%;
          height: 10rem;
          margin: auto;
          border-radius: 10px;
          align-items:center;
          justify-content:center;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Comfortaa', cursive;
 }
