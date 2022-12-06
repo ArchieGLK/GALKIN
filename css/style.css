@@ -24,9 +24,15 @@ body{
   z-index: -1;
 }
 .title {
+justify-content: center;
 padding-top: 5rem;
-padding-left: 5vw;
-height: 40rem;
+padding-bottom: 13rem;
+width: 100%;
+margin: auto;
+}
+.title img{
+  margin: auto;
+  display: block;
 
 }
 .blackbackground{
@@ -39,21 +45,26 @@ height: 40rem;
   background-color: #111;
   width: 100%;
   height: 30rem;
-  border-bottom: 20px black solid;
+  border-top: 2em solid #111;
 }
-.imageDIV {
+.greetings{
+  width: 23rem;;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  background-color: #555;
+  height: 10rem;
+  border-radius: 1rem;
+  display: block;
+}
+.greetingsinner{
   display: flex;
-  flex-wrap: no-wrap;
-  overflow-x: scroll;
-  padding-top: 2rem;
-  width: 100%;
-  overscroll-behavior-inline: contain;
-
-}
-.imageDIV img{
-    border-radius: 1rem;
-    margin-left: 2rem;
-    border: 2px solid #fff;
-    box-shadow: inset 1rem 1rem 1rem;
-
+         width: 50%;
+         height: 10rem;
+         margin: auto;
+         border-radius: 10px;
+         align-items:center;
+         justify-content:center;
+  color: #fff;
+  font-size: 2.5rem;
 }
