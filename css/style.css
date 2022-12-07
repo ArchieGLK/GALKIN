@@ -98,11 +98,10 @@ margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     max-width: 1000px;
     margin: auto;
-    border-left: solid 3rem #111;
-    border-right: solid 3rem #111;
+    border-left: solid 1.5rem #111;
+    border-right: solid 1.5rem #111;
     border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
-    border-radius: 1rem;
+
 
 }
 .item{
