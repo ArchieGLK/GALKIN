@@ -79,6 +79,7 @@ margin: auto;
   margin: auto;
   border-bottom: 2px dashed white;
   padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 .test{
   padding-top: 2rem;
@@ -89,4 +90,28 @@ margin: auto;
   border-radius: 10px;
     border: 1.5px solid white;
       box-shadow: 0.5rem 0.5rem 3rem 1rem black;
+}
+.container{
+    background: #222;
+    display: grid;
+    padding-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+    border-left: solid 3rem #111;
+    border-right: solid 3rem #111;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    border-radius: 1rem;
+
+}
+.item{
+ display: block;
+ margin: auto;
+}
+.item img{
+  border-radius: 10px;
+  border: 1.5px solid white;
+  box-shadow: 0.2rem 0.2rem 5rem 0.2rem black;
+  margin-bottom: 2rem;
 }
