@@ -36,7 +36,7 @@ margin: auto;
 .title img{
   margin: auto;
   display: block;
-  width: 90vw;
+  width: 80vw;
   max-width: 500px;
 
 }
@@ -44,6 +44,7 @@ margin: auto;
   background-color: black;
   width: 100vw;
   height: 30rem;
+  box-shadow: 0rem 15rem 5rem 18rem black;
 }
 .greybackground{
   background-color: #111;
@@ -114,4 +115,8 @@ margin: auto;
   margin-bottom: 2rem;
   max-width: 17rem;
   width: 55vw;
+  transition: 0.3s;
+}
+.item img:hover{
+ 
 }
