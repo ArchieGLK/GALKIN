@@ -5,6 +5,7 @@ body{
  height: 100vh;
 
 }
+
 html, body {
  overflow-x: hidden;
 }
@@ -129,8 +130,8 @@ margin: auto;
 .containersecond{
   display: grid;
   padding-top: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  max-width: 1000px;
   margin: auto;
   padding-bottom: 10rem;
 }
@@ -139,25 +140,23 @@ margin: auto;
   margin: auto;
   width: 70vw;
   max-width: 500px;
-  grid-gap: 3rem;
-  height: 5rem;
+  grid-gap: 2rem;
   margin-bottom: 3rem;
   font-family: 'Comfortaa', cursive;
   color: white;
   font-size: 1.5rem;
   text-align: center;
-
+  height: 10rem;
 
 }
 .itemsecond p{
   text-shadow: 0px 0px 2.5px white;
 }
 .itemsecond img{
-  width: 70vw;
+  height: 50vw;
+  max-height: 300px;
   display: block;
   margin: auto;
-  max-width: 150px;
-  padding-top: 1rem;
 }
 .line{
   color: white;
@@ -180,23 +179,21 @@ margin: auto;
   width: 70vw;
   max-width: 500px;
   grid-gap: 2rem;
-  height: 10rem;
   margin-bottom: 3rem;
   font-family: 'Comfortaa', cursive;
   color: white;
-  font-size: 1.5rem;
   text-align: center;
+  font-size: 1.5rem;
 }
 .itemthird p{
   text-shadow: 0px 0px 2.5px white;
-  padding-top: 2rem;
   display: block;
   margin: auto;
 }
 .itemthird img{
-  width: 30rem;
+  width: 50vw;
   display: block;
   margin: auto;
-  max-width: 17rem;
+  max-width: 400px;
   padding-top: 1rem;
 }
