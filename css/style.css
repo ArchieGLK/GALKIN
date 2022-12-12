@@ -140,7 +140,6 @@ margin: auto;
   margin: auto;
   max-width: 70vw;
   grid-gap: 2rem;
-  margin-bottom: 3rem;
   font-family: 'Comfortaa', cursive;
   color: white;
   font-size: 1.25rem;
@@ -155,8 +154,7 @@ margin: auto;
 .itemsecond img{
   height: 50vw;
   max-height: 300px;
-  display: block;
-  margin: auto;
+
 }
 .line{
   color: white;
@@ -168,7 +166,6 @@ margin: auto;
 }
 .containerthird{
   display: grid;
-  padding-top: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   max-width: 800px;
   margin: auto;
@@ -189,8 +186,6 @@ margin: auto;
 }
 .itemthird img{
   width: 50vw;
-  display: block;
-  margin: auto;
   max-width: 400px;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
