@@ -3,6 +3,7 @@ body{
  padding: 0;
  overflow-x: hidden;
  height: 100vh;
+ background: black;
 
 }
 
@@ -26,20 +27,43 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+  animation-duration: 4s;
+ animation-name: slideintwo;
 }
+@keyframes slideintwo {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
 .title {
 justify-content: center;
-padding-top: 5rem;
-padding-bottom: 13rem;
+padding-top: 6rem;
 width: 100%;
 margin: auto;
+height: 100vh;
 }
 .title img{
   margin: auto;
   display: block;
   width: 80vw;
-  max-width: 500px;
+  max-width: 900px;
+  animation-duration: 2s;
+ animation-name: slidein;
+ transition: 1s;
+}
+@keyframes slidein {
+  from {
+    opacity: 0%;
+  }
 
+  to {
+    opacity: 100%;
+  }
 }
 .blackbackground{
   background-color: black;
