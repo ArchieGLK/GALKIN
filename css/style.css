@@ -166,13 +166,13 @@ height: 100vh;
   font-family: 'Unbounded', cursive;
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .itemsecond p{
   text-shadow: 4px 4px 10px black;
   height: 15vw;
-  max-height: 10rem;
+  max-height: 8rem;
 }
 .itemsecond img{
   height: 50vw;
@@ -205,7 +205,7 @@ height: 100vh;
   font-weight: 600;
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .itemthird p{
   height: 15vw;
