@@ -4,7 +4,7 @@ body{
  overflow-x: hidden;
  height: 100vh;
  background: black;
-
+6b4e90
 }
 
 html, body {
@@ -182,10 +182,11 @@ height: 100vh;
 .line{
   color: white;
   height: 0.1px;
-  border: 2px dashed #fff;
+  border: 4px solid #555;
   display: block;
   margin: auto;
   width: 70vw;
+  max-width: 850px;
   margin-top: 1rem;
 }
 .containerthird{
@@ -193,13 +194,13 @@ height: 100vh;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   max-width: 800px;
   margin: auto;
+  padding-bottom: 2rem;
 }
 .itemthird{
   display: block;
   margin: auto;
   max-width: 70vw;
   grid-gap: 2rem;
-  margin-bottom: 3rem;
   ont-family: 'Comfortaa', cursive;
   font-family: 'Unbounded', cursive;
   font-weight: 600;
@@ -209,7 +210,8 @@ height: 100vh;
 }
 .itemthird p{
   height: 15vw;
-  max-height: 10rem;
+  max-height: 3rem;
+
 
 }
 .itemthird img{
@@ -221,6 +223,8 @@ height: 100vh;
   width: 100%;
   background: #111;
   box-shadow: 0.5rem 0.5rem 6rem 3rem black;
+  max-height: 11.5rem;
+  margin-bottom: 3rem;
 }
 .example{
   width: 100%;
@@ -229,6 +233,7 @@ height: 100vh;
   padding-left: 2rem;
   max-width: 800px;
   margin: auto;
+
 }
 
 .example h1{
@@ -250,4 +255,34 @@ height: 100vh;
   color: #fff;
   text-shadow: 0px 0px 10px white;
   border-left: #fff solid 5px;;
+}
+
+.sectionwrapper{
+  padding: 1rem;
+}
+.section{
+  background-color: #111;
+  border-radius: 3rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  padding: 1rem;
+  font-size: 1.7rem;
+  text-align: right;
+    box-shadow: inset -1rem -1rem 0rem #222;
+}
+.section h1{
+  font-size: 1.7rem;
+  font-weight: 100;
+  border-right: 5px solid green;
+  padding: 1rem;
+}
+.section p{
+  font-family: 'Unbounded', cursive;
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: 100;
+  color: #d46a6a;
+  padding: 1rem;
 }
