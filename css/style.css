@@ -50,7 +50,7 @@ height: 100vh;
   margin: auto;
   display: block;
   width: 80vw;
-  max-width: 600px;
+  max-width: 450px;
   animation-duration: 2s;
  animation-name: slidein;
 }
@@ -274,7 +274,7 @@ height: 100vh;
 .section h1{
   font-size: 1.7rem;
   font-weight: 100;
-  border-right: 5px solid green;
+  border-right: 5px solid #7fb081;
   padding: 1rem;
 }
 .section p{
@@ -284,4 +284,94 @@ height: 100vh;
   font-weight: 100;
   color: #d46a6a;
   padding: 1rem;
+}
+.section img{
+  height: 1.7rem;
+  animation-name: spin;
+ animation-duration: 5000ms;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ margin-right: 2rem;
+
+
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.sectionwrappertwo{
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.sectiontwo{
+  background-color: #111;
+  border-radius: 3rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  padding: 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+    box-shadow: inset -1rem -1rem 0rem #222;
+    animation-name: spintwo;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes spintwo {
+    from {
+        transform:rotate(10deg);
+    }
+    to {
+        transform:rotate(10deg);
+    }
+}
+.sectiontwo h1 {
+color: #7fb081;
+}
+.sectionwrapperthree{
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #111;
+}
+.sectionthree{
+  border-radius: 3rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.sectionthree h1{
+  background-color: #222;
+  border-radius: 15px;
+}
+.vkinst{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+  padding-left: 2rem;
+  width: 18rem;
+  margin: auto;
+}
+.vkinstelement img:hover{
+  animation-name: spinlala;
+ animation-duration: 0.5s;
+ animation-iteration-count: 1;
+ animation-timing-function: linear;
+}
+@keyframes spinlala {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
