@@ -28,6 +28,7 @@ body {
   z-index: -1;
   animation-duration: 4s;
  animation-name: slideintwo;
+ opacity: 70%;
 }
 @keyframes slideintwo {
   from {
@@ -41,16 +42,17 @@ body {
 
 .title {
 justify-content: center;
-padding-top: 6rem;
 width: 100%;
 margin: auto;
 height: 100vh;
+display: grid;
+place-items: center;
 }
 .title img{
   margin: auto;
   display: block;
   width: 80vw;
-  max-width: 450px;
+  max-width: 600px;
   animation-duration: 2s;
  animation-name: slidein;
 }
@@ -130,6 +132,7 @@ height: 100vh;
     border-bottom: solid 1.5rem #111;
         box-shadow: 0rem 0.5rem 3rem 1rem black;
 }
+
 .item{
  display: block;
  margin: auto;
@@ -366,6 +369,8 @@ color: #7fb081;
  animation-duration: 0.5s;
  animation-iteration-count: 1;
  animation-timing-function: linear;
+ opacity: 50%;
+ transition: 0.7s;
 }
 @keyframes spinlala {
     from {
