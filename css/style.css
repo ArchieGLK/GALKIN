@@ -132,6 +132,57 @@ place-items: center;
     border-bottom: solid 1.5rem #111;
         box-shadow: 0rem 0.5rem 3rem 1rem black;
 }
+.wrapperone{
+ padding: 1rem;
+}
+.Wrappertwo{
+  background-color: #111;
+  border-radius: 3rem;
+  width: 70vw;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  padding: 1rem;
+  font-size: 1.7rem;
+  text-align: right;
+    box-shadow: inset -1rem -1rem 0rem #222;
+    padding: 3rem;
+}
+.heading{
+  text-align: center;
+  color: #d46a6a;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  background-color: #222;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+.gridone{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  place-items: center;
+  padding: 1rem;
+  grid-gap: 1rem;
+
+}
+.gridoneelement img{
+  height: 50vw;
+  max-height: 300px;
+  border-radius: 3rem;
+  border: 2px solid #fff;
+  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
+}
+.gridoneelement{
+  font-size: 1.25rem;
+  max-width: 350px;
+  text-align: center;
+}
+.gridoneelement h1{
+  color: #7fb081;
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px #7fb081;
+}
 
 .item{
  display: block;
@@ -153,6 +204,8 @@ place-items: center;
   width: 100%;
   margin-top: 2rem;
 }
+
+
 .containersecond{
   display: grid;
   padding-top: 2rem;
