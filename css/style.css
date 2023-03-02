@@ -1,580 +1,152 @@
-body{
- margin: 0;
- padding: 0;
- overflow-x: hidden;
- height: 100vh;
- background: black;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;900&display=swap" rel="stylesheet">
 
-html, body {
- overflow-x: hidden;
-}
-body {
- position: relative;
-}
-.govno{
-  text-align: center;
-  color: #fff;
-}
-#background-video {
-  width: 200vw;
-  height: 140vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-  animation-duration: 4s;
- animation-name: slideintwo;
- opacity: 70%;
-}
-@keyframes slideintwo {
-  from {
-    opacity: 0%;
-  }
-
-  to {
-    opacity: 100%;
-  }
-}
-
-.title {
-justify-content: center;
-width: 100%;
-margin: auto;
-height: 85vh;
-display: grid;
-place-items: center;
-}
-.title img{
-  margin: auto;
-  display: block;
-  width: 75vw;
-  max-width: 400px;
-  animation-duration: 2s;
- animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    opacity: 0%;
-  }
-
-  to {
-    opacity: 100%;
-  }
-}
-.blackbackground{
-  background-color: black;
-  width: 100vw;
-  height: 30rem;
-  box-shadow: 0rem 0rem 10rem 3rem black;
-}
-.greybackground{
-  background-color: #111;
-  width: 100vw;
-  height: 32.6rem;
-  border-top: 2em solid #111;
-}
-.greetings{
-  width: 10rem;;
-  max-width: 500px;
-  display: block;
-  margin: auto;
-  height: 4rem;
-  border-radius: 1rem;
-  display: block;
-  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-}
-.greetingsinner{
-  display: flex;
-         height: 1rem;
-         margin: auto;
-         border-radius: 10px;
-         align-items:center;
-         justify-content:center;
-  color: #fff;
-  font-size: 1.5rem;
-  font-family: 'Unbounded', cursive;
-  font-weight: 500;
-  padding-top: 1.5rem;
-}
-.dottedline{
-  width: 10rem;
-  display: block;
-  margin: auto;
-  border-bottom: 2px dashed white;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
-}
-.test{
-  padding-top: 2rem;
-}
-.test img{
-  display: block;
-  margin: auto;
-  border-radius: 10px;
-    border: 1px solid white;
-      box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-}
-
-.container{
-    background: #222;
-    display: grid;
-    padding-top: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    max-width: 1000px;
-    margin: auto;
-    border-left: solid 1.5rem #111;
-    border-right: solid 1.5rem #111;
-    border-top: solid 1.5rem #111;
-    border-bottom: solid 1.5rem #111;
-        box-shadow: 0rem 0.5rem 3rem 1rem black;
-}
-
-.wrapperbig{
- padding-bottom: 1rem;
-}
-.Wrappertwo{
-  background-color: #111;
-  border-radius: 3rem;
-  width: 70vw;
-  max-width: 800px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-  text-align: right;
-    box-shadow: inset -1rem -1rem 0rem #222;
-    padding: 3rem;
-    transition-duration: 1s;
-    border: #d46a6a 5px solid;
-
-}
-.Wrappertwo:hover{
-  box-shadow: inset 1rem 1rem 0rem #222;
-}
-.heading{
-  text-align: center;
-  color: #d46a6a;
-  font-weight: 900;
-  margin-bottom: 1rem;
-  background-color: #222;
-  border-radius: 3rem;
-  padding: 1rem;
-  border: 5px solid #d46a6a;
-}
-.gridone{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  place-items: center;
-  padding: 1rem;
-  grid-gap: 1rem;
-
-}
-.gridoneelement img{
-  height: 50vw;
-  max-height: 300px;
-  border-radius: 2.5rem;
-  border: 5px solid #d46a6a;
-  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-}
-.gridoneelement{
-  font-size: 0.9rem;
-  max-width: 350px;
-  text-align: center;
-}
-.gridoneelement h1{
-  color: #7fb081;
-  text-decoration: underline;
-  text-shadow: 0px 0px 10px #7fb081;
-
-}
-.wrappertwo{
- padding: 1rem;
-}
-.Wrapperthree{
-  background-color: #111;
-  border-radius: 3rem;
-  width: 70vw;
-  max-width: 800px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-  text-align: right;
-    box-shadow: inset -1rem -1rem 0rem #222;
-    padding: 3rem;
-    transition-duration: 1s;
-    border: #7daaba 5px solid;
-}
-.Wrapperthree:hover{
-  box-shadow: inset 1rem 1rem 0rem #222;
-}
-.headingtwo{
-  text-align: center;
-  color: #7daaba;
-  font-weight: 900;
-  margin-bottom: rem;
-  background-color: #222;
-  border-radius: 3rem;
-  padding: 1rem;
-  border: 5px solid #7daaba;
-  transition: 1s;
-}
-
-.gridtwo{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  place-items: center;
-  padding: 1rem;
-  grid-gap: 1rem;
-
-}
-.gridtwo a{
-  color: #555;
-  text-shadow: none;
-  text-decoration: line-through;
-  text-decoration-color: black;
-  font-size: 0.7rem;
-}
-.gridtwoelement img{
-  height: 50vw;
-  max-height: 300px;
-  border-radius: 2.5rem;
-  border: 5px solid #7daaba;
-  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-}
-.gridtwoelement{
-  font-size: 0.9rem;
-  max-width: 350px;
-  text-align: center;
-}
-.gridtwoelement h1{
-  color: #7fb081;
-  text-shadow: 0px 0px 10px #7fb081;
-
-}
+  </head>
 
 
-.wrapperbigthrees{
-  background-color: #111;
-  margin-top: 5rem;
-}
 
-.Wrapperfour{
-  border-radius: 3rem;
-  width: 70vw;
-  max-width: 800px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-  text-align: right;
-    transition-duration: 1s;
-}
+  <body>
 
-.headingthree{
-  text-align: center;
-  color: #8A7EF2;
-  font-weight: 900;
-  margin-bottom: 1rem;
-  background-color: #222;
-  border-radius: 3rem;
-  padding: 1rem;
-  border: 5px dotted #8A7EF2;
-  transition: 1s;
-}
-
-.gridthree{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  place-items: center;
-  : 1rem;
-  grid-gap: 2rem;
-
-}
-.gridthree a{
-  color: #555;
-  text-shadow: none;
-  text-decoration: line-through;
-  text-decoration-color: black;
-  font-size: 0.7rem;
-}
-.gridthreelement img{
-  height: 50vw;
-  max-height: 300px;
-  border-radius: 2rem;
-  border: 5px solid #8A7EF2;
-  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-
-}
-.gridthreelement{
-  font-size: 0.9rem;
-  max-width: 350px;
-  text-align: center;
-  background-color: #111;
-  border-radius: 3rem;
-  place-items: center;
-}
-.gridthreelement h1{
-  color: #fff;
-  text-shadow: 0px 0px 10px #fff;
-
-}
-
-.item{
- display: block;
- margin: auto;
-}
-.item img{
-  border-radius: 10px;
-  border: 1.5px solid white;
-  box-shadow: 0.2rem 0.2rem 5rem 0.2rem black;
-  margin-bottom: 2rem;
-  max-width: 17rem;
-  width: 55vw;
-  transition: 0.3s;
-}
-.item img:hover{
-
-}
-.gridwrapper{
-  width: 100%;
-  margin-top: 2rem;
-}
+<img id="background-video"src="img/background.JPEG" alt="">
 
 
-.containersecond{
-  display: grid;
-  padding-top: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  max-width: 800px;
-  margin: auto;
-}
-.itemsecond{
-  display: block;
-  margin: auto;
-  max-width: 70vw;
-  grid-gap: 2rem;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.itemsecond p{
-  text-shadow: 4px 4px 10px black;
-  height: 15vw;
-  max-height: 8rem;
-}
-.itemsecond img{
-  height: 50vw;
-  max-height: 300px;
+<div class="title">
 
-}
+<img src="img/galkin3.png" alt="" >
+
+</div>
+
+<div class="blackbackground">
+  <div class="greybackground">
 
 
-.line{
-  color: white;
-  height: 0.1px;
-  border: 4px solid #555;
-  display: block;
-  margin: auto;
-  width: 70vw;
-  max-width: 850px;
-  margin-top: 1rem;
-}
-.containerthird{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  max-width: 800px;
-  margin: auto;
-  padding-bottom: 2rem;
-}
-.itemthird{
-  display: block;
-  margin: auto;
-  max-width: 70vw;
-  grid-gap: 2rem;
-  ont-family: 'Comfortaa', cursive;
-  font-family: 'Unbounded', cursive;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-}
-.itemthird p{
-  height: 15vw;
-  max-height: 3rem;
+
+   <div class="greetings">
+     <div class="greetingsinner">
+о нас
+     </div>
+   </div>
+
+   <div class="dottedline">
+
+   </div>
+
+   <div class="container">
+     <div class="item"><img src="img/hello.jpeg"  alt="" ></div>
+     <div class="item"><img src="img/design.jpeg" alt=""></div>
+     <div class="item"><img src="img/adaptiveness.jpeg" alt=""></div>
+   </div>
+
+<div class="wrapperbig">
+   <div class="Wrappertwo">
+     <div class="heading">
+      "А  это дорого?"
+     </div>
+     <div class="gridone">
+       <div class="gridoneelement"><img src="img/design.jpeg" alt=""></div>
+       <div class="gridoneelement"> <h1>Нет!</h1>Мы не накручиваем ценник как многие разработчики! Вас устроит цена, даже если бюджет у вас очень мал.</div>
+     </div>
+   </div>
+</div>
+
+<div class="wrapperbigtwo">
+   <div class="Wrapperthree">
+     <div class="headingtwo">
+       Сделаем быстро
+     </div>
+     <div class="gridtwo">
+       <div class="gridtwoelement"> <h1><a>2 месяца</a> НЕДЕЛЯ</h1>Изготовление сайта зависит от объёма и сложности сайта. Максимум - 2 недели. </div>
+       <div class="gridtwoelement"><img src="img/design.jpeg" alt=""></div>
+   </div>
+</div>
+
+<div class="wrapperbigthrees">
+  <div class="Wrapperfour">
+    <div class="headingthree">
+      Сделаем быстро
+    </div>
+    <div class="gridthree">
+      <div class="gridthreelement"> <h1><a>2 месяца</a> НЕДЕЛЯ</h1>Изготовление сайта зависит от объёма и сложности сайта. Максимум - 2 недели. </div>
+      <div class="gridthreelement"><img src="img/design.jpeg" alt=""></div>
+    </div>
+  </div>
+</div>
+
+   <div class="containersecond">
+     <div class="itemsecond"><p>Удобный сайт поможет Вам найти своего клиента!</p></div>
+     <div class="itemsecond"><img src="img/client.png" alt=""></div>
+   </div>
+<div class="line">
+
+</div>
+   <div class="containerthird">
+     <div class="itemthird"><img src="img/working.png" alt=""></div>
+     <div class="itemthird"><p>Можете быть уверены в качестве, имеем опыт в разработке сайтов!</p></div>
+   </div>
+
+<div class="greystripe">
+
+ <div class="example">
 
 
-}
-.itemthird img{
-  width: 50vw;
-  max-width: 400px;
-  padding-top: 1rem;
-}
-.greystripe{
-  width: 100%;
-  background: #111;
-  box-shadow: 0.5rem 0.5rem 6rem 3rem black;
-  max-height: 11.5rem;
-  margin-bottom: 3rem;
-}
-.example{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding-left: 2rem;
-  max-width: 800px;
-  margin: auto;
+<div class="examplegrid">
 
-}
-
-.example h1{
-  font-family: 'Unbounded', cursive;
-  font-weight: 900;
-  color: #666;
-  font-size: 3rem;
-  padding-left: 2rem;
-  max-width: 15rem;
-  border-left: #666 solid 5px;
-  transition: 0.25s;
-  text-decoration: none;
-}
-.example a{
-  text-decoration: none;
-}
-.example h1:hover{
-  cursor: pointer;
-  color: #fff;
-  text-shadow: 0px 0px 10px white;
-  border-left: #fff solid 5px;;
-}
-
-.sectionwrapper{
-  padding: 1rem;
-}
-.section{
-  background-color: #111;
-  border-radius: 3rem;
-  max-width: 600px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.7rem;
-  text-align: right;
-    box-shadow: inset -1rem -1rem 0rem #222;
-}
-.section h1{
-  font-size: 1.7rem;
-  font-weight: 100;
-  border-right: 5px solid #7fb081;
-  padding: 1rem;
-}
-.section p{
-  font-family: 'Unbounded', cursive;
-  text-align: left;
-  font-size: 1.7rem;
-  font-weight: 100;
-  color: #d46a6a;
-  padding: 1rem;
-}
-.section img{
-  height: 1.7rem;
-  animation-name: spin;
- animation-duration: 5000ms;
- animation-iteration-count: infinite;
- animation-timing-function: linear;
- margin-right: 2rem;
+  <a href="https://archieglk.github.io/AGstudio/"><h1>ПРИМЕР САЙТА→</h1></a>
 
 
-}
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-.sectionwrappertwo{
-    padding: 1rem;
-    margin-top: 2rem;
-}
-.sectiontwo{
-  background-color: #111;
-  border-radius: 3rem;
-  max-width: 600px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.7rem;
-  text-align: center;
-    box-shadow: inset -1rem -1rem 0rem #222;
-    animation-name: spintwo;
-   animation-duration: 5000ms;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear;
-}
-@keyframes spintwo {
-    from {
-        transform:rotate(10deg);
-    }
-    to {
-        transform:rotate(10deg);
-    }
-}
-.sectiontwo h1 {
-color: #7fb081;
-}
-.sectionwrapperthree{
-  padding: 1rem;
-  margin-top: 2rem;
-  background-color: #111;
-}
-.sectionthree{
-  border-radius: 3rem;
-  max-width: 600px;
-  margin: auto;
-  font-family: 'Unbounded', cursive;
-  color: white;
-  padding: 1rem;
-  font-size: 1.4rem;
-  text-align: center;
-}
-.sectionthree h1{
-  background-color: #222;
-  border-radius: 15px;
-}
-.vkinst{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
-  padding-left: 2rem;
-  width: 18rem;
-  margin: auto;
-}
-.vkinstelement img:hover{
-  animation-name: spinlala;
- animation-duration: 0.5s;
- animation-iteration-count: 1;
- animation-timing-function: linear;
- opacity: 50%;
- transition: 0.7s;
-}
-@keyframes spinlala {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
+</div>
+
+
+
+  </div>
+
+
+
+</div>
+
+<div class="sectionwrapper">
+  <div class="section">
+    <h1><img src="img/star.png" alt="">Зачем мне нужен лендинг-сайт?</h1>
+    <p>		○ Он поможет вам увеличить продажи</p>
+    <p>		○ Даст клиенту представление о продукте</p>
+    <p>		○ У вас захотят купить</p>
+
+  </div>
+</div>
+
+<div class="sectionwrappertwo">
+  <div class="sectiontwo">
+    <h1>ЦЕНА</h1><p>Варируется в зависимости от сложности сайта. <p>средняя стоимость - 2499р</p> </p>
+  </div>
+</div>
+
+<div class="sectionwrapperthree">
+  <div class="sectionthree">
+    <h1>ДЛЯ ЗАКАЗА ПИШИТЕ НАМ</h1>
+  </div>
+  <div class="vkinst">
+  <div class="vkinstelement"><img src="img/inst.png" height="70" alt=""></div>
+  <div class="vkinstelement"><a href="https://vk.com/galkinweb?w=club217466264"><img src="img/vk.png" height="70" alt=""></a></div>
+  <div class="vkinstelement"><img src="img/telegram.png" height="70" alt=""></div>
+  </div>
+</div>
+
+
+
+
+  </body>
+
+
+
+</html>
