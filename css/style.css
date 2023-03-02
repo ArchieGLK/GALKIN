@@ -149,6 +149,7 @@ place-items: center;
     box-shadow: inset -1rem -1rem 0rem #222;
     padding: 3rem;
     transition-duration: 1s;
+    border: #d46a6a 5px solid;
 
 }
 .Wrappertwo:hover{
@@ -162,7 +163,7 @@ place-items: center;
   background-color: #222;
   border-radius: 3rem;
   padding: 1rem;
-  border: 3px solid #d46a6a;
+  border: 5px solid #d46a6a;
 }
 .gridone{
   display: grid;
@@ -207,6 +208,7 @@ place-items: center;
     box-shadow: inset -1rem -1rem 0rem #222;
     padding: 3rem;
     transition-duration: 1s;
+    border: #7daaba 5px solid;
 }
 .Wrapperthree:hover{
   box-shadow: inset 1rem 1rem 0rem #222;
@@ -219,7 +221,7 @@ place-items: center;
   background-color: #222;
   border-radius: 3rem;
   padding: 1rem;
-  border: 3px solid #7daaba;
+  border: 5px solid #7daaba;
   transition: 1s;
 }
 
@@ -251,6 +253,99 @@ place-items: center;
   text-align: center;
 }
 .gridtwoelement h1{
+  color: #7fb081;
+  text-shadow: 0px 0px 10px #7fb081;
+
+}
+.clock {
+  border-radius: 50%;
+  background: #fff url(/images/posts/clocks/ios_clock.svg) no-repeat center;
+  background-size: 88%;
+  padding-bottom: 31%;
+  position: relative;
+  height: 3rem;
+  width: 3rem;
+}
+
+.clock.simple:after {
+  background: #000;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.wrapperbigthree{
+ padding: 1rem;
+}
+
+.Wrapperfour{
+  border-radius: 3rem;
+  width: 70vw;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: right;
+    padding: 3rem;
+    transition-duration: 1s;
+}
+
+.headingthree{
+  text-align: center;
+  color: #7daaba;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  background-color: #222;
+  border-radius: 3rem;
+  padding: 1rem;
+  border: 3px solid #7daaba;
+  transition: 1s;
+}
+
+.gridthree{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  place-items: center;
+  : 1rem;
+  grid-gap: 1rem;
+
+}
+.gridthree a{
+  color: #555;
+  text-shadow: none;
+  text-decoration: line-through;
+  text-decoration-color: black;
+  font-size: 0.7rem;
+}
+.gridthreelement img{
+  height: 40vw;
+  max-height: 250px;
+  border-radius: 3rem;
+  border: 2px solid #fff;
+  box-shadow: 0.5rem 0.5rem 3rem 1rem black;
+  margin: 2.5rem;
+
+}
+.gridthreelement{
+  font-size: 0.9rem;
+  max-width: 350px;
+  text-align: center;
+  background-color: #111;
+  padding: 2rem;
+  box-shadow: inset -1rem -1rem 0rem #222;
+  border-radius: 3rem;
+  place-items: center;
+}
+.gridthreelement:hover{
+  box-shadow: inset 1rem 1rem 0rem #222;
+}
+.gridthreelement h1{
   color: #7fb081;
   text-shadow: 0px 0px 10px #7fb081;
 
@@ -306,6 +401,8 @@ place-items: center;
   max-height: 300px;
 
 }
+
+
 .line{
   color: white;
   height: 0.1px;
