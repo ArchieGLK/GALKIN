@@ -175,8 +175,8 @@ place-items: center;
 
 }
 .gridoneelement img{
-  height: 50vw;
-  max-height: 300px;
+  height: 40vw;
+  max-height: 250px;
   border-radius: 2.5rem;
   border: 5px solid #d46a6a;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
@@ -242,8 +242,8 @@ place-items: center;
   font-size: 0.7rem;
 }
 .gridtwoelement img{
-  height: 50vw;
-  max-height: 300px;
+  height: 40vw;
+  max-height: 250px;
   border-radius: 2.5rem;
   border: 5px solid #7daaba;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
@@ -306,8 +306,8 @@ place-items: center;
   font-size: 0.7rem;
 }
 .gridthreelement img{
-  height: 50vw;
-  max-height: 300px;
+  height: 40vw;
+  max-height: 250px;
   border-radius: 2rem;
   border: 5px solid #8A7EF2;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
@@ -373,8 +373,8 @@ place-items: center;
   max-height: 8rem;
 }
 .itemsecond img{
-  height: 50vw;
-  max-height: 300px;
+  height: 40vw;
+  max-height: 250px;
 
 }
 
@@ -415,8 +415,8 @@ place-items: center;
 
 }
 .itemthird img{
-  width: 50vw;
-  max-width: 400px;
+  width: 40vw;
+  max-width: 250px;
   padding-top: 1rem;
 }
 .greystripe{
@@ -578,4 +578,3 @@ color: #7fb081;
         transform:rotate(360deg);
     }
 }
- 
