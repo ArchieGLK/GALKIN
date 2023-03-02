@@ -115,7 +115,7 @@ place-items: center;
   display: block;
   margin: auto;
   border-radius: 10px;
-    border: 1.5px solid white;
+    border: 1px solid white;
       box-shadow: 0.5rem 0.5rem 3rem 1rem black;
 }
 
@@ -132,8 +132,9 @@ place-items: center;
     border-bottom: solid 1.5rem #111;
         box-shadow: 0rem 0.5rem 3rem 1rem black;
 }
+
 .wrapperbig{
- padding: 1rem;
+ padding-bottom: 1rem;
 }
 .Wrappertwo{
   background-color: #111;
@@ -167,17 +168,17 @@ place-items: center;
 }
 .gridone{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
   padding: 1rem;
   grid-gap: 1rem;
 
 }
 .gridoneelement img{
-  height: 40vw;
-  max-height: 250px;
-  border-radius: 3rem;
-  border: 2px solid #fff;
+  height: 50vw;
+  max-height: 300px;
+  border-radius: 2.5rem;
+  border: 5px solid #d46a6a;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
 }
 .gridoneelement{
@@ -217,7 +218,7 @@ place-items: center;
   text-align: center;
   color: #7daaba;
   font-weight: 900;
-  margin-bottom: 1rem;
+  margin-bottom: rem;
   background-color: #222;
   border-radius: 3rem;
   padding: 1rem;
@@ -227,7 +228,7 @@ place-items: center;
 
 .gridtwo{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   place-items: center;
   padding: 1rem;
   grid-gap: 1rem;
@@ -241,10 +242,10 @@ place-items: center;
   font-size: 0.7rem;
 }
 .gridtwoelement img{
-  height: 40vw;
-  max-height: 250px;
-  border-radius: 3rem;
-  border: 2px solid #fff;
+  height: 50vw;
+  max-height: 300px;
+  border-radius: 2.5rem;
+  border: 5px solid #7daaba;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
 }
 .gridtwoelement{
@@ -257,29 +258,11 @@ place-items: center;
   text-shadow: 0px 0px 10px #7fb081;
 
 }
-.clock {
-  border-radius: 50%;
-  background: #fff url(/images/posts/clocks/ios_clock.svg) no-repeat center;
-  background-size: 88%;
-  padding-bottom: 31%;
-  position: relative;
-  height: 3rem;
-  width: 3rem;
-}
 
-.clock.simple:after {
-  background: #000;
-  border-radius: 50%;
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-}
 
-.wrapperbigthree{
- padding: 1rem;
+.wrapperbigthrees{
+  background-color: #111;
+  margin-top: 5rem;
 }
 
 .Wrapperfour{
@@ -292,28 +275,27 @@ place-items: center;
   padding: 1rem;
   font-size: 1.5rem;
   text-align: right;
-    padding: 3rem;
     transition-duration: 1s;
 }
 
 .headingthree{
   text-align: center;
-  color: #7daaba;
+  color: #8A7EF2;
   font-weight: 900;
   margin-bottom: 1rem;
   background-color: #222;
   border-radius: 3rem;
   padding: 1rem;
-  border: 3px solid #7daaba;
+  border: 5px dotted #8A7EF2;
   transition: 1s;
 }
 
 .gridthree{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   place-items: center;
   : 1rem;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 
 }
 .gridthree a{
@@ -324,12 +306,11 @@ place-items: center;
   font-size: 0.7rem;
 }
 .gridthreelement img{
-  height: 40vw;
-  max-height: 250px;
-  border-radius: 3rem;
-  border: 2px solid #fff;
+  height: 50vw;
+  max-height: 300px;
+  border-radius: 2rem;
+  border: 5px solid #8A7EF2;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
-  margin: 2.5rem;
 
 }
 .gridthreelement{
@@ -337,17 +318,12 @@ place-items: center;
   max-width: 350px;
   text-align: center;
   background-color: #111;
-  padding: 2rem;
-  box-shadow: inset -1rem -1rem 0rem #222;
   border-radius: 3rem;
   place-items: center;
 }
-.gridthreelement:hover{
-  box-shadow: inset 1rem 1rem 0rem #222;
-}
 .gridthreelement h1{
-  color: #7fb081;
-  text-shadow: 0px 0px 10px #7fb081;
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff;
 
 }
 
