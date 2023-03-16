@@ -144,22 +144,21 @@ place-items: center;
 .Wrappertwo{
   background-color: #111;
   border-radius: 3rem;
-  width: 70vw;
+  width: 75vw;
   max-width: 800px;
   margin: auto;
   font-family: 'Unbounded', cursive;
   color: white;
-  padding: 1rem;
   font-size: 1.5rem;
   text-align: right;
-    box-shadow: inset -1rem -1rem 0rem #222;
-    padding: 3rem;
+    box-shadow: inset -1rem -1rem 0rem #111;
+    padding: 2rem;
     transition-duration: 1s;
     border: #d46a6a 5px solid;
 
 }
 .Wrappertwo:hover{
-  box-shadow: inset 1rem 1rem 0rem #222;
+  box-shadow
 }
 .heading{
   text-align: center;
@@ -226,21 +225,20 @@ place-items: center;
 .Wrapperthree{
   background-color: #111;
   border-radius: 3rem;
-  width: 70vw;
+  width: 75vw;
   max-width: 800px;
   margin: auto;
   font-family: 'Unbounded', cursive;
   color: white;
-  padding: 1rem;
   font-size: 1.5rem;
   text-align: right;
-    box-shadow: inset -1rem -1rem 0rem #222;
-    padding: 3rem;
+    box-shadow: inset -1rem -1rem 0rem #111;
+    padding: 2rem;
     transition-duration: 1s;
     border: #7daaba 5px solid;
 }
 .Wrapperthree:hover{
-  box-shadow: inset 1rem 1rem 0rem #222;
+  box-shadow
 }
 .headingtwo{
   text-align: center;
@@ -258,7 +256,6 @@ place-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   place-items: center;
-  padding: 2rem;
   grid-gap: 1rem;
   font-size: 0.9rem;
   border-radius: 2rem;
@@ -275,6 +272,8 @@ place-items: center;
     bottom/100% var(--_d, 0) no-repeat;
   transition: 0.5s;
   margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
 }
 .gridtwo:hover{
@@ -288,6 +287,7 @@ place-items: center;
   text-decoration: line-through;
   text-decoration-color: black;
   font-size: 0.7rem;
+
 }
 .gridtwoelement img{
   height: 50vw;
@@ -295,6 +295,7 @@ place-items: center;
   border-radius: 2.5rem;
   border: 5px solid #7daaba;
   box-shadow: 0.7rem 0.7rem 0rem #111;
+  margin-bottom: 1rem;
 }
 .gridtwoelement{
   font-size: 0.9rem;
