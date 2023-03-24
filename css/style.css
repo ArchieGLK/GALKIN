@@ -176,11 +176,11 @@ place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
   grid-gap: 1rem;
-
+  padding-bottom: 0.8rem;
 }
 .gridoneelement img{
   height: 50vw;
-  max-height: 300px;
+  max-height: 250px;
   border-radius: 2.5rem;
   border: 5px solid #d46a6a;
   box-shadow: 0.7rem 0.7rem 0rem #111;
@@ -214,7 +214,7 @@ place-items: center;
   transition: 0.3s;
   background-color: #d46a6a;
   border-radius: 2rem;
-
+  text-align: center;
 }
 .gridoneelement h1:hover{
   color: black:
@@ -244,19 +244,21 @@ place-items: center;
   text-align: center;
   color: #7daaba;
   font-weight: 900;
-  margin-bottom: rem;
+  margin-bottom: 1rem;
   background-color: #222;
   border-radius: 3rem;
   padding: 1rem;
   border: 5px solid #7daaba;
   transition: 1s;
 }
-
 .gridtwo{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
   grid-gap: 1rem;
+  padding-bottom: 0.8rem;
+}
+.gridtwo{
   font-size: 0.9rem;
   border-radius: 2rem;
   text-align: center;
@@ -271,10 +273,6 @@ place-items: center;
     linear-gradient(#7daaba 0 0)
     bottom/100% var(--_d, 0) no-repeat;
   transition: 0.5s;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
 }
 .gridtwo:hover{
   --_d: 100%;
@@ -291,11 +289,10 @@ place-items: center;
 }
 .gridtwoelement img{
   height: 50vw;
-  max-height: 300px;
+  max-height: 250px;
   border-radius: 2.5rem;
   border: 5px solid #7daaba;
   box-shadow: 0.7rem 0.7rem 0rem #111;
-  margin-bottom: 1rem;
 }
 .gridtwoelement{
   font-size: 0.9rem;
@@ -358,7 +355,7 @@ place-items: center;
 }
 .gridthreelement img{
   height: 50vw;
-  max-height: 300px;
+  max-height: 250px;
   border-radius: 2rem;
   border: 5px solid #8A7EF2;
   box-shadow: 0.5rem 0.5rem 3rem 1rem black;
